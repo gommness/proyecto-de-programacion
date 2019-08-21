@@ -1,0 +1,149 @@
+/** 
+ * @BRIEF Las funciones de la interfaz
+ *
+ * @FILE ventana.h
+ * @AUTHOR Elvira Vegas Maganto
+ * @DATE 14-11-2015 
+ */
+
+#ifndef VENTANA_H
+#define	VENTANA_H
+#include "types.h"
+
+typedef struct _Ventana Ventana;
+
+/**
+ * @BRIEF Inicializa una ventana de la pantalla.  
+ * @AUTHOR Elvira Vegas Maganto
+ * @RETURN la ventana creada o NULL si no se ha podido crear correctamente.
+ */
+Ventana* ini_ventana(int nfilas, int ncolums, int start_fila, int start_colum);
+
+/**
+ * @BRIEF Destruye y libera la memoria reservada para una ventana de la pantalla.  
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana que se quiere borrar.
+ * @RETURN la ventana creada o NULL si no se ha podido crear correctamente.
+ */
+void destroy_ventana(Ventana* window);
+
+/**
+ * @BRIEF Limpia una ventana.  
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana que se quiere limpiar.
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+STATUS limpiar_ventana(Ventana* window);
+
+/**
+ * @BRIEF comprueba si una ventana tiene valores válidos 
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana a comprobar.
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+ STATUS ventana_visible(Ventana* window);
+/**
+ * @BRIEF Limpiar el color de una ventana.  
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana que se quiere limpiar del color.
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+/*STATUS limpiar_color_ventana(Ventana* window);*/
+
+/*
+ * @BRIEF Coloca el cursor donde se quiere escribir.  
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana en la cual se quiere colocar el cursor.
+ * @PARAM la ultima fila escrita.
+ * @PARAM la ultima columna escrita.
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+STATUS colocar_cursor_write_ventana(Ventana* window, int fila, int colum);
+
+/**
+ * @BRIEF Imprime un caracter en la ventana correspondiente.  
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana en la cual se quiere escribir el caracter.
+ * @PARAM el caracter que se quiere escribir.
+ * @PARAM la ultima fila escrita.
+ * @PARAM la ultima columna escrita.
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+STATUS print_caracter_ventana(Ventana* window, char caracter, int fila, int colum);
+
+/**
+ * @BRIEF Imprime a cierta velocidad el texto que se quiere escribir.  
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana en la cual se quiere escribir.
+ * @PARAM la cadena que se quiere escribir.
+ * @PARAM la ultima fila escrita.
+ * @PARAM la ultima columna escrita.
+ * @PARAM la velocidad de escritura.
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+STATUS print_cadena_ventana(Ventana* window, char* cadena, int fila, int colum);
+
+
+/**
+ * @BRIEF Imprime el marco de una ventana grande
+ * @AUTHOR David Lopez Ramos
+ * @PARAM la ventana en la cual se quiere escribir.
+ * @PARAM el caracter del marco que se quiere escribir.
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+STATUS print_marco_ventana_grande(Ventana* window, char caracter);
+
+/**
+ * @BRIEF Imprime el marco de una ventana pequeña
+ * @AUTHOR David Lopez Ramos
+ * @PARAM la ventana en la cual se quiere escribir.
+ * @PARAM el caracter del marco que se quiere escribir.
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+STATUS print_marco_ventana_pequena(Ventana* window, char caracter);
+
+/**
+ * @BRIEF Imprime la pantalla inicial
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventanas ventanas que se quieren imprimir 
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+
+STATUS print_pantalla_inicial(Ventana** v1, Ventana** v2, Ventana** v3, Ventana** v4);
+
+/**
+ * @BRIEF Comprueba si las ventanas de la pantalla son visibles o no
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventanas ventanas de la pantalla
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+
+STATUS pantalla_visible(Ventana** w1, Ventana** w2, Ventana** w3);
+
+/**
+ * @BRIEF Limpia las ventanas de una pantalla
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventanas ventanas de la pantalla
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+
+STATUS limpiar_pantalla(Ventana** v1, Ventana** v2, Ventana** v3, Ventana** v4);
+
+/**
+ * @BRIEF Imprime la bienvenida del juego
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana donde se imprime
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+STATUS print_bienvenida(Ventana** window);
+
+/**
+ * @BRIEF Imprime la bienvenida del juego
+ * @AUTHOR Elvira Vegas Maganto
+ * @PARAM la ventana donde se imprime
+ * @RETURN OK si todo ha ido bien, ERROR sino.
+ */
+STATUS print_comando(Ventana** window);
+
+#endif	/*VENTANA_H */
+

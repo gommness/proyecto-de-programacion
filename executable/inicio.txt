@@ -1,0 +1,463 @@
+23
+antorcha
+Un palo en llamas, su topolog�a sigue en estudio.
+(...)
+1
+1
+1
+X
+
+puerta
+Me bloquea el paso, espero que est� abierta.
+(...), No s� por qu� esperaba una respuesta.
+0
+1
+0
+X
+
+cama
+Aqu� duermo todos los d�as.
+Mejor uso la cama como la gente normal.
+0
+1
+0
+X
+
+foto
+Una foto que me recuerda a mi padre.
+Me gustar�a volver a hablar con �l...
+1
+0
+0
+0
+
+despertador
+Su funci�n se puede deducir.
+Deber�a buscarme un hobby.
+1
+1
+0
+X
+
+noctorcha
+Este artefacto parece producir antiluz.
+Deber�a dejar de intentar hablar con todos mis objetos.
+1
+1
+X
+X
+
+llave_zanahoria
+Silbato con forma de zanahoria que atrae conejos al ser usado... l�gico.
+(...)
+1
+1
+0
+0
+
+conejo_negro
+Es un conejo, y es negro!
+*Sonido de conejo negro*
+1
+0
+0
+0
+
+muro
+Parece que no se puede pasar por aqu�.
+Hac�a mucho que no hablaba con las paredes.
+0
+1
+0
+X 
+
+palanca
+Hala! una palanca! Seguro que abre cosas! 
+A que no adivinas mi funci�n?
+0
+1
+0
+X
+
+missingno
+Un missingno salvaje apareci�!
+(???)
+1
+1
+0
+0
+
+estatuilla_de_cristal
+Mejor no lo toco que me lo cargo.
+(...)
+1
+0
+0
+0
+
+estatuilla_de_piedra
+Esta cosa pesa una barbaridad.
+Si es que soy mu pesao.
+1
+0
+0
+0
+
+estatuilla_de_arcilla
+Tiene la forma real de un coraz�n humano, es muy disgusting
+*pum pum*
+1
+0
+0
+0
+
+estatuilla_de_madera
+Tiene forma de conejo... Me gustan los conejos.
+*sonido de conejo*	
+1
+0
+0
+0
+
+estatua_de_mujer
+Es una figura que se parece a una mujer mayor.
+Soy una mujer fuerte e independiente.
+0
+0
+0
+0
+
+estatua_de_padre
+�Pap�?
+Me voy a comprar tabaco.
+1
+0
+0
+0
+
+estatua_de_chico
+No s� qui�n es la verdad.
+Tengo pene.
+0
+0
+0
+0
+
+estatua_mia
+Es una estatua m�a, espero no verme as� de gorda >//<
+Hola yo.
+0
+0
+0
+0
+
+sol
+Es un sol con gafas de sol, �cu�nto sentido tiene eso?
+*brillando fuerte*
+0
+0
+1
+0
+
+hoja_de_examen
+Esto es un examen que hice hace poco, menos mal que se puntuaba a partir de 0
+Deber�as estudiar m�s t�o.
+1
+0
+0
+0
+
+puerta_conejo
+Esta cosa bloquea el paso cual Snorlax
+*fuzz fuzz* (no seas rata, dame una zanahoria)
+0
+0
+0
+0
+
+corriente_de_agua
+Parece ser que no puedo cruzar a contra corriente, la corriente es fuerte
+*sonido del agua*
+0
+0
+0
+0
+
+10
+jugador
+Soy yo.
+Hablo conmigo mismo.
+[3,3]
+X
+
+abuela
+Es la abuela mas divertida del mundo, ella me ense�o a jugar al chinchon.
+Hola corazon, pareces hambrienta, �te preparo una ensalada ligera y unas 27 albondigas?, mientras deberias dormir.
+[3,0]
+X
+
+madre
+Mi mama es muy joven, a veces la gente piensa que somos hermanas. Sera por las carisimas cremas que usa.
+Ah, estas ahi, hija. Haz el favor de recoger tu habitacion, no te lo vuelvo a repetir. Te quiero, mi ni�a.
+[3,2]
+X
+
+director
+Siempre he pensado que mi director se esfuerza demasiado. Se pasa todo el dia arreglando papeles con su secretaria en el despacho, pobre.
+Hola Ana, �que demonios haces aqui? Son las 6 de la tarde, no son horas de deambular por la escuela, vete a casa.
+[0,2]
+X
+
+socorrista
+Buff, es aquel socorrista que me curo la picadura de medusa, esta como un quesito.
+Hace un dia perfecto para un chapuzon. Tambi�n es propicio para lucir cuerpo, me encantan mis biceps, �a ti no?
+[2,3]
+X
+
+amiga1
+Oh, esta es mi amiga Claudia. Anda que no hemos pasado tardes enteras hablando de chismes y de chicos.
+Llegas tarde, Ana. Bueno, si�ntate que te comento lo de Ra�l, que se ha apuntado al gimnasio y creo que voy a atacar.
+[0,0]
+X
+
+enterrador
+Que aspecto tan siniestro tiene ese hombre, parece Willie de los Simpson pero despu�s de recibir una paliza. Debe de ser muy duro ser enterrador.
+No estoy acostumbrado a hablar con la gente, en mi trabajo son todos muy callados JAJAJAJA lo pillas? (Por esto no tengo amigos D:... PORQUE ESTAN MUERTOS!).
+[0,3]
+X
+
+hermano
+Mi hermano es el ser mas insoportable de este universo. Tiene ya 7 a�os pero sigue haciendo cosas tipicas de crio.
+Ana, dice mama que este finde estas castigada sin salir jejeje, mala suerte. Por cierto, me acabo de tragar un bocado del pegamento de barra, �deberia preocuparme?
+[3,1]
+X
+
+ana_triste
+Que clase de truco hay aqui? Estoy viendome a mi misma en aquel banco, parezco abatida. 
+*llorando* Jo, desde que papa se fue ya no tengo fuerzas para seguir mi vida con normalidad, todo me supera... Me temo que de esta no voy a salir.
+[1,2]
+X
+
+muneca
+Guau, me encanta esta mu�eca. Tiene el tama�o de un ni�o de 5 a�os. Oh wait... esta hablando??
+No me gusta que me peinen, no me gusta que me achuchen y no me gusta que los pervertidos me desvistan para ver que hay, no entienden que soy un trozo de plastico?
+[3,3]
+X
+
+4 4
+[0,0]
+X
+Entro en el patio de mi instituto. Un lugar bastante amplio, pero con pocas cosas destacables.
+Todos los horarios colgados en las corcheras han sido sustituidos por carteles de 'the cake is a lie'
+signifique lo que signifique eso.
+X
+luz
+X
+sol
+X
+norte	[puerta 1 0 1]
+este	[puerta 1 1 0]
+X
+
+[0,1]
+X
+Entro en un sitio estrecho y humedo... debo de estar en la despensa de casa.
+X
+luz
+X
+missingno
+X
+norte	[puerta 1 0 2]
+sur	[puerta 1 0 0]
+X
+
+[0,2]
+X
+Entro en lo que parece ser un aula vieja de mi instituto. Todo esta mal cuidado, pero al menos no esta tan destrozado como el ultimo dia del curso
+en la pizarra hay un par de tonterias escritas. Probablemente hayan sido mis amigos (...) vaya chorradas, jajaja son unos frikis
+X
+oscuridad
+X
+hoja_de_examen
+X
+norte	[puerta 1 0 3]
+sur	[puerta 1 0 1]
+este	[puerta 1 1 2]
+X
+
+[0,3]
+X
+Esto es... un cementerio? Esta lloviendo a cantaros... siento que me invade un sentimiento de tristeza...
+las tumbas se alinean, vienen desde mas alla de lo que alcanza mi vista y van hacia mas alla de lo que alcanza mi vista.
+Este es un sitio bastante triste...
+X
+lluvia
+X
+estatua_de_padre
+X
+sur	[puerta 1 0 2]
+este	[puerta 1 1 3]
+X
+
+[1,0]
+X
+Entro en una sala sencilla... es mi habitaci�n de cuando era una cria.
+X
+luz
+X
+X
+norte	[puerta 1 1 1]
+oeste	[puerta 1 0 0]
+este	[puerta 0 2 0]
+X
+
+[1,1]
+X
+Entro en un salon muy limpio y cuidado. Hay una mesa con un mantel puesto, sofas y hasta una lampara. Es una preciosidad todo
+Ahora que lo pienso... se parece demasiado al salon de la casa de mu�ecas de mi amiga de la infancia... soliamos jugar juntas a esto
+En realidad nunca me gusto demasiado. No es mi estilo, me parece muy cursi e infantil.
+X
+oscuridad
+X
+X
+norte	[puerta 1 1 2]
+sur	[puerta 1 1 0]
+este	[puerta 1 2 1]
+X
+
+[1,2]
+X
+La sala est� iluminada por un sol que esta pintado en el techo.
+Inmediatamente debajo de este hay una especie de altar de piedra.
+Paredes y techo est�n construidos con ladrillos de arcilla, parecen bastante robustos, me hacen sentir segura.
+el suelo esta cubierto por hierba fresca. Es una sensacion agradable
+X
+luz
+X
+altar
+antorcha
+X
+oeste	[puerta 1 0 2]
+sur	[puerta 1 1 1]
+este	[puerta 1 2 2]
+X
+
+[1,3]
+X
+el suelo es arena, las paredes figuran la playa... y en verdad huele a mar... mmm... me encanta este olor, me trae recuerdos.
+Hay castillos de arena y alguna que otro intento de escultura de arena...
+hay una escultura que resulta bastante mas llamativa, es de un 'sireno' abuelete con pose sexy...
+A la sombra de una sombrilla hay alguien tumbado en una hamaca. Seguro que esta comodo... que envidia
+X
+luz
+X
+sol
+X
+oeste	[puerta 1 0 3]
+este	[puerta 1 2 3]
+X
+
+[2,0]
+X
+Aquí se acaba todo.
+X
+luz
+X
+despertador
+X
+oeste	[puerta 0 1 0]
+X
+
+[2,1]
+X
+termino entrando en un cuarto de ba�o... huele mal... no quiero ni saber el por que
+el suelo esta sucio, las paredes estan sucias... todo en el cuarto esta guarrisimo!
+X
+luz
+X
+conejo_negro
+X
+norte	[puerta 1 2 2]
+oeste	[puerta 1 1 1]
+X
+
+[2,2]
+X
+algo muy brillante de esta sala me ciega los ojos... de que se trata?
+Suelo, paredes y techo. Mejor dicho, TODO esta cubierto de oro aqui. quien pudiera llevarselo al mundo exterior
+en la pared sur, hay un trono dorado. Todo en esta sala es tan ostentoso que me parece feo. Tanto oro... para que?
+aunque bueno... la verdad es que no me vendrian nada mal un par de ladrillacos dorados de esos...
+X
+luz
+X
+sol
+X
+norte	[puerta 1 2 3]
+oeste	[puerta 1 1 2]
+sur	[puerta 1 2 1]
+X
+
+[2,3]
+X
+Todo a mi alrededor parece estar sumergido en el mar. Es dificil distinguir donde estan las paredes y el suelo, ya que son de un cristal casi trasparente
+Este sitio es un acuario enorme. A trav�s de el cristal puedo ver todo tipo de criaturas marinas nadando de aqui para all�.
+La luz del sol se filtra a trav�s del agua. pero a�n asi este lugar es bastante oscuro.
+X
+oscuridad
+X
+sol
+X
+oeste	[puerta 1 1 3]
+sur	[puerta 1 2 2]
+X
+
+[3,0]
+X
+Al entrar siento una sensacion familiar. Esto es el salon de la casa de mis abuelos. no ha cambiado mucho desde la ultima vez que vine
+Se nota que hace tiempo que nadie ha vivido aqui: hay polvo y telara�as por todas partes
+En el centro hay una mesa con una hoja de examen... es un suspenso mio jajaja vaya novedad...
+X
+luz
+X
+hoja_de_examen
+X
+norte	[puerta 0 3 1]
+X
+
+[3,1]
+X
+Esta sala parece un monte. Suelo con hierba, piedrecitas y alguna flor.
+Desde alg�n lugar corre una brisa agradable. Trae un aroma fresco. Me agrada.
+X
+luz
+X
+sol
+X
+norte	[puerta 1 3 2]
+sur	[puerta 0 3 0]
+X
+
+[3,2]
+X
+El salón, aquí nos reunimos todos a contemplar la tele, a veces incluso la encendemos.
+X
+luz
+X
+foto
+X
+norte	[puerta 1 3 3]
+sur	[puerta 1 3 1]
+X
+
+[3,3]
+X
+Este es mi cuarto, aquí me despierto por las mañanas, o por las tardes si me he viciado al starcraft.
+X
+luz
+X
+cama
+llave_zanahoria
+X
+sur	[puerta 1 3 2]
+X
+
